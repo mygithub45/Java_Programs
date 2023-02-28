@@ -80,4 +80,5 @@ public class MaxAreaHistoGram {
 						+ getMaxArea(hist, hist.length));
 	}
 }
-// This code is Contributed by Sumit Ghosh
+// Time Complexity: O(N)
+//Auxiliary Space: O(N)

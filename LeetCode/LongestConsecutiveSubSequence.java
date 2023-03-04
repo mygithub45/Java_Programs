@@ -92,3 +92,5 @@ public class LongestConsecutiveSubSequence {
 	}
 }
 // This code is contributed by Sudipa Sarkar
+//Time Complexity: O(N*log(N)), Time required to push and pop N elements is logN for each element.
+//Auxiliary Space: O(N), Space required by priority queue to store N elements.

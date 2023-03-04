@@ -2,7 +2,8 @@ package LeetCode;
 
 import java.util.*;
 import java.util.Set;
-
+//https://github.com/neetcode-gh/leetcode/blob/main/java/0269-alien-dictionary.java
+//https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
 class AlienDictionary {
 
     Map<Character, Set<Character>> adjList;

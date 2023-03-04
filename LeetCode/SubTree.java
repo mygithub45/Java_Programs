@@ -103,3 +103,5 @@ public class SubTree {
 }
 
 // This code has been contributed by Mayank Jaiswal
+//Time Complexity: O(M*N), Traversing on subtree S of size M for every N node of Tree T.
+//Auxiliary space: O(n)

@@ -1,3 +1,5 @@
+
+
 public class StaticInstanceInheritance {
     public static void printcolor()
     {
@@ -28,11 +30,16 @@ class sub extends StaticInstanceInheritance{
         sub s1=new sub();
         StaticInstanceInheritance s2=new sub();
         sub s3=new sub();
+        StaticInstanceInheritance s4=new sub();
+        StaticInstanceInheritance s5=new StaticInstanceInheritance();
+
         s1.printcolor();//child
         s2.printcolor();//parent
         s3.printcolor();//child
-       m1.checkcolor(); //child
+        m1.checkcolor(); //child
         m2.checkcolor();//parent
         m3.checkcolor();//child
+        s4.printcolor();//parent
+       s4.checkcolor();//child checkcolor
     }
 }
